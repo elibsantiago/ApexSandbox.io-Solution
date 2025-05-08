@@ -4,5 +4,5 @@ public String aOrAn(String word) {
             word.startsWith('i') || 
             word.startsWith('o') || 
             word.startsWith('u')) 
-            ? 'an ' + word : 'a ' + word;
+            ? 'an' + word : 'a' + word;
 }
