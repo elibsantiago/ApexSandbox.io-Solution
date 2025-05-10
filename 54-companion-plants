@@ -1,5 +1,5 @@
 public Boolean companionPlants(String plant1, String plant2) {
-    Map<String, Set<String>> parametro = new Map<String, Set<String>{
+    Map<String, Set<String>> parametro = new Map<String, Set<String>>{
         'onions' => new Set<String>{'lettuce','carrots','tomatoes'},
         'lettuce' => new Set<String>{'cucumbers','onions'},
         'cucumbers' => new Set<String>{'lettuce'},
