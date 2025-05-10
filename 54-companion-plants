@@ -1,10 +1,10 @@
 public Boolean companionPlants(String plant1, String plant2) {
     Map<String, Set<String>> parametro = new <String, Set<String>{
-        'onions' = new Set<String>{'lettuce','carrots','tomatoes'},
-        'lettuce' = new Set<String>{'cucumbers','onions'},
-        'cucumbers' = new Set<String>{'lettuce'},
-        'carrots' = new Set<String>{'onions'},
-        'tomatoes' = new Set<String>{'onions'}
+        'onions' => new Set<String>{'lettuce','carrots','tomatoes'},
+        'lettuce' => new Set<String>{'cucumbers','onions'},
+        'cucumbers' => new Set<String>{'lettuce'},
+        'carrots' => new Set<String>{'onions'},
+        'tomatoes' => new Set<String>{'onions'}
     };
 
     if (parametro.containsKey(plant1)){
