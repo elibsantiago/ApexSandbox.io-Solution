@@ -9,6 +9,7 @@ public Boolean companionPlants(String plant1, String plant2) {
 
     if (parametro.containsKey(plant1)){
         return companionPlants(plant1).contains(plant2);
-    }
+    } else {
+        return false;
     }
 }
